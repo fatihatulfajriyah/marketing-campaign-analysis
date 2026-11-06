@@ -120,7 +120,7 @@ An interactive Google Looker Studio dashboard was developed to visualize marketi
 
 **Interactive Dashboard:**
 
-![View Live Dashboard – Google Looker Studio](https://datastudio.google.com/reporting/a91d5dbf-9be3-4d74-b919-e5e91cc6ef84)
+[**View Live Dashboard – Google Looker Studio**](https://datastudio.google.com/reporting/a91d5dbf-9be3-4d74-b919-e5e91cc6ef84)
 
 ## **SQL Skills Applied**
 
