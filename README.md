@@ -6,13 +6,14 @@ This project analyzes customer data to evaluate marketing campaign performance, 
 
 ## **Project Details**
 
-- **Tools:** PostgreSQL, DBeaver, SQL
+- **Tools:** PostgreSQL, DBeaver, SQL, Microsoft Excel, Google Looker Studio
 - **Database:** `marketing_analysis`
 - **Schema:** `public`
 - **Table:** `marketing_campaign`
 - **Dataset:** Marketing Campaign Dataset
 - **Total Records:** 2,240
 - **Unique Customers:** 2,240
+- **Analysis Period:** 2012–2014
 
 ## **Objectives**
 
@@ -44,9 +45,10 @@ Evaluated customer acceptance rates across five previous campaigns and the lates
 
 - How do customer acceptance rates differ across marketing campaigns?
 
-**Key Finding:**
+**Key Findings:**
 
-- Campaign 4 recorded the highest acceptance, with 167 customers (7.46% acceptance rate).
+- Campaign 4 recorded the highest acceptance among previous campaigns, with 167 customers (7.46% acceptance rate).
+- The latest campaign achieved a 14.91% response rate, as shown in the dashboard.
 
 ### **3. Customer Spending & Product Preferences**
 
@@ -60,6 +62,7 @@ Analyzed customer spending patterns across product categories, education levels,
 **Key Findings:**
 
 - Wines generated the highest spending of 680,816, contributing approximately 50.17% of total product spending.
+- Meat Products ranked second with 373,968 in total spending.
 - Customer spending patterns were also compared across education and marital status groups.
 
 ### **4. Purchase Channel & Customer Behavior**
@@ -76,7 +79,8 @@ Examined purchasing activity across Web, Catalog, and Store channels, including 
 
 - Store purchases ranked first with 12,970 purchases, followed by Web (9,150) and Catalog (5,963).
 - Customers with 10 monthly web visits recorded the highest average online purchases (5.33), based on 3 customers.
-- Households with 0 children and 2 teenagers recorded the highest average Web (5.97) and Store (7.37) purchases, while households without children or teenagers led Catalog purchases (4.76).
+- Households with 0 children and 2 teenagers recorded the highest average Web (5.97) and Store (7.37) purchases.
+- Households without children or teenagers recorded the highest average Catalog purchases (4.76).
 
 ### **5. Customer Characteristics & Campaign Response**
 
@@ -89,16 +93,34 @@ Analyzed campaign response rates across customer income groups and education lev
 
 **Key Findings:**
 
-- High Income customers recorded the highest response rate at 21.50%, with 181 accepted responses.
-- PhD customers recorded the highest response rate at 20.78%, with 101 accepted responses.
+- High Income customers recorded the highest response, with 181 accepted customers.
+- PhD customers recorded the highest response among education groups, with 101 accepted customers.
+- Campaign responses were also compared across Medium Income, Low Income, Graduation, Master, 2n Cycle, and Basic education groups.
 
 ## **Key Business Recommendations**
 
 - Review successful campaign strategies to improve future campaign performance.
-- Prioritize high-spending product categories, particularly Wines, when planning product promotions.
+- Prioritize high-spending product categories, particularly Wines and Meat Products, when planning product promotions.
 - Optimize marketing activities across purchasing channels, especially the Store channel.
-- Develop targeted campaigns for customer groups with higher response rates.
+- Develop targeted campaigns for customer groups with higher response rates, particularly High Income and PhD customers.
 - Use customer purchasing behavior and demographic characteristics to support more relevant marketing strategies.
+
+## **Dashboard**
+
+An interactive Google Looker Studio dashboard was developed to visualize marketing campaign performance, customer spending, purchasing behavior, and customer response patterns.
+
+**Dashboard Features:**
+
+- Campaign acceptance and response rate comparison.
+- Product category spending distribution.
+- Purchase channel performance.
+- Campaign response by income group and education level.
+- Household purchasing behavior.
+- Interactive filters for Education, Marital Status, Income Group, and Campaign Selection.
+
+**Interactive Dashboard:**
+
+![View Live Dashboard – Google Looker Studio](https://datastudio.google.com/reporting/a91d5dbf-9be3-4d74-b919-e5e91cc6ef84)
 
 ## **SQL Skills Applied**
 
@@ -118,11 +140,11 @@ Analyzed campaign response rates across customer income groups and education lev
 
 ## **Project Files**
 
-- `marketing_campaign_datatset.csv` – Dataset used for marketing campaign analysis.
-- `marketing_campaign_analysis.sql` – SQL queries used for data exploration, validation, and business analysis.
-- `marketing_campaign_dashboard.jpg` – Dashboard preview.
-- `README.md` – Project documentation.
+- `marketing_campaign_dataset.csv` – Dataset used for retail sales analysis.
+-  `marketing_campaign_analysis.sql` – SQL queries used for data exploration, validation, and business analysis.
+- `marketing_campaign_dashboard.jpg` – Google Looker Studio dashboard preview.
+- `README.md` – Project documentation, including objectives, analysis process, key findings, and business recommendations.
 
 ## **Conclusion**
 
-The analysis identified differences in campaign acceptance, customer spending, and purchasing behavior across customer groups. These findings provide insights that can support more targeted marketing campaigns, improve customer engagement, and strengthen marketing decision-making.
+This project demonstrates the use of SQL to explore customer data, validate data quality, analyze marketing campaign performance, and understand customer purchasing behavior. The findings highlight differences in campaign responses, product spending, and purchasing preferences across customer groups. These insights can support more targeted marketing campaigns and improve data-driven decision-making.
