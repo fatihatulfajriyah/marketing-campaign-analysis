@@ -140,7 +140,7 @@ An interactive Google Looker Studio dashboard was developed to visualize marketi
 
 ## **Project Files**
 
-- `marketing_campaign_dataset.csv` – Dataset used for retail sales analysis.
+- `marketing_campaign_dataset.xlsx` – Dataset used for retail sales analysis.
 -  `marketing_campaign_analysis.sql` – SQL queries used for data exploration, validation, and business analysis.
 - `marketing_campaign_dashboard.jpg` – Google Looker Studio dashboard preview.
 - `README.md` – Project documentation, including objectives, analysis process, key findings, and business recommendations.
