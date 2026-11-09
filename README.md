@@ -6,7 +6,7 @@ This project analyzes customer data to evaluate marketing campaign performance, 
 
 ## **Project Details**
 
-- **Tools:** PostgreSQL, DBeaver, SQL, Microsoft Excel, Google Looker Studio
+- **Tools:** PostgreSQL, DBeaver, SQL, Microsoft Excel, Google Data Studio
 - **Database:** `marketing_analysis`
 - **Schema:** `public`
 - **Table:** `marketing_campaign`
@@ -107,7 +107,7 @@ Analyzed campaign response rates across customer income groups and education lev
 
 ## **Dashboard**
 
-An interactive Google Looker Studio dashboard was developed to visualize marketing campaign performance, customer spending, purchasing behavior, and customer response patterns.
+An interactive Google Data Studio dashboard was developed to visualize marketing campaign performance, customer spending, purchasing behavior, and customer response patterns.
 
 **Dashboard Features:**
 
@@ -120,7 +120,7 @@ An interactive Google Looker Studio dashboard was developed to visualize marketi
 
 **Interactive Dashboard:**
 
-[**View Live Dashboard – Google Looker Studio**](https://datastudio.google.com/reporting/a91d5dbf-9be3-4d74-b919-e5e91cc6ef84)
+[**View Live Dashboard – Google Data Studio**](https://datastudio.google.com/reporting/a91d5dbf-9be3-4d74-b919-e5e91cc6ef84)
 
 ## **SQL Skills Applied**
 
@@ -142,7 +142,7 @@ An interactive Google Looker Studio dashboard was developed to visualize marketi
 
 - `marketing_campaign_dataset.xlsx` – Dataset used for retail sales analysis.
 -  `marketing_campaign_analysis.sql` – SQL queries used for data exploration, validation, and business analysis.
-- `marketing_campaign_dashboard.jpg` – Google Looker Studio dashboard preview.
+- `marketing_campaign_dashboard.jpg` – Dashboard preview.
 - `README.md` – Project documentation, including objectives, analysis process, key findings, and business recommendations.
 
 ## **Conclusion**
