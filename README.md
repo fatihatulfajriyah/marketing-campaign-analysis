@@ -48,7 +48,7 @@ Evaluated customer acceptance rates across five previous campaigns and the lates
 **Key Findings:**
 
 - Campaign 4 recorded the highest acceptance among previous campaigns, with 167 customers (7.46% acceptance rate).
-- The latest campaign achieved a 14.91% response rate, as shown in the dashboard.
+- The latest campaign achieved a 14.91% response rate, outperforming the previous campaigns.
 
 ### **3. Customer Spending & Product Preferences**
 
@@ -93,8 +93,8 @@ Analyzed campaign response rates across customer income groups and education lev
 
 **Key Findings:**
 
-- High Income customers recorded the highest response, with 181 accepted customers.
-- PhD customers recorded the highest response among education groups, with 101 accepted customers.
+- High-income customers recorded the highest number of campaign responses (181).
+- PhD customers recorded the highest number of campaign responses among education groups (101).
 - Campaign responses were also compared across Medium Income, Low Income, Graduation, Master, 2n Cycle, and Basic education groups.
 
 ## **Key Business Recommendations**
@@ -102,7 +102,7 @@ Analyzed campaign response rates across customer income groups and education lev
 - Review successful campaign strategies to improve future campaign performance.
 - Prioritize high-spending product categories, particularly Wines and Meat Products, when planning product promotions.
 - Optimize marketing activities across purchasing channels, especially the Store channel.
-- Develop targeted campaigns for customer groups with higher response rates, particularly High Income and PhD customers.
+- Develop targeted campaigns for customer groups with higher campaign acceptance, particularly High Income and PhD customers.
 - Use customer purchasing behavior and demographic characteristics to support more relevant marketing strategies.
 
 ## **Dashboard**
@@ -140,7 +140,7 @@ An interactive Google Looker Studio dashboard was developed to visualize marketi
 
 ## **Project Files**
 
-- `marketing_campaign_dataset.xlsx` – Dataset used for retail sales analysis.
+- `marketing_campaign_dataset.xlsx` – Dataset used for marketing campaign and customer behavior analysis.
 -  `marketing_campaign_analysis.sql` – SQL queries used for data exploration, validation, and business analysis.
 - `marketing_campaign_dashboard.jpg` – Dashboard preview.
 - `README.md` – Project documentation, including objectives, analysis process, key findings, and business recommendations.
