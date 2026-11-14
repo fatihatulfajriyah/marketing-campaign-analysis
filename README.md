@@ -37,7 +37,19 @@ Performed initial data exploration and validation to assess dataset completeness
 - Average customer income was 52,247.25 across 2,216 valid records.
 - Identified 2 unusual birth-year records and no negative income values.
 
-### **2. Marketing Campaign Performance**
+### **2. Dashboard Data Preparation**
+
+The original dataset was transformed into a long-format structure using SQL to support Google Looker Studio dashboard development.
+
+- **Original Dataset:** 2,240 rows
+- **Transformed Dataset:** 33,600 rows
+- **Transformation Method:** PostgreSQL View (`CROSS JOIN LATERAL`)
+
+The transformed dataset combines campaign performance, product spending, and purchase channel data into a single source for consistent demographic filtering.
+
+*Note: The original dataset was used for SQL analysis, while the transformed dataset was used for dashboard visualization.*
+
+### **3. Marketing Campaign Performance**
 
 Evaluated customer acceptance rates across five previous campaigns and the latest campaign.
 
@@ -50,7 +62,7 @@ Evaluated customer acceptance rates across five previous campaigns and the lates
 - Campaign 4 recorded the highest acceptance among previous campaigns, with 167 customers (7.46% acceptance rate).
 - The latest campaign achieved a 14.91% response rate, outperforming the previous campaigns.
 
-### **3. Customer Spending & Product Preferences**
+### **4. Customer Spending & Product Preferences**
 
 Analyzed customer spending patterns across product categories, education levels, and marital status groups.
 
@@ -65,9 +77,9 @@ Analyzed customer spending patterns across product categories, education levels,
 - Meat Products ranked second with 373,968 in total spending.
 - Customer spending patterns were also compared across education and marital status groups.
 
-### **4. Purchase Channel & Customer Behavior**
+### **5. Purchase Channel & Customer Behavior**
 
-Examined purchasing activity across Web, Catalog, and Store channels, including customer behavior based on website visits and household composition.
+Analyzed customer purchasing activity across Web, Catalog, and Store channels to identify purchasing preferences and behavioral patterns.
 
 **Business Questions:**
 
@@ -82,9 +94,9 @@ Examined purchasing activity across Web, Catalog, and Store channels, including 
 - Households with 0 children and 2 teenagers recorded the highest average Web (5.97) and Store (7.37) purchases.
 - Households without children or teenagers recorded the highest average Catalog purchases (4.76).
 
-### **5. Customer Characteristics & Campaign Response**
+### **6. Customer Characteristics & Campaign Response**
 
-Analyzed campaign response rates across customer income groups and education levels.
+Analyzed campaign response patterns across customer income groups and education levels to identify demographic segments with higher campaign engagement.
 
 **Business Questions:**
 
@@ -95,14 +107,14 @@ Analyzed campaign response rates across customer income groups and education lev
 
 - High-income customers recorded the highest number of campaign responses (181).
 - PhD customers recorded the highest number of campaign responses among education groups (101).
-- Campaign responses were also compared across Medium Income, Low Income, Graduation, Master, 2n Cycle, and Basic education groups.
+- Campaign response rates were also compared across income and education groups using Google Looker Studio.
 
 ## **Key Business Recommendations**
 
 - Review successful campaign strategies to improve future campaign performance.
 - Prioritize high-spending product categories, particularly Wines and Meat Products, when planning product promotions.
 - Optimize marketing activities across purchasing channels, especially the Store channel.
-- Develop targeted campaigns for customer groups with higher campaign acceptance, particularly High Income and PhD customers.
+- Develop targeted marketing campaigns for high-income and PhD customer segments, which recorded the highest campaign response rates in the dashboard analysis.
 - Use customer purchasing behavior and demographic characteristics to support more relevant marketing strategies.
 
 ## **Dashboard**
@@ -115,8 +127,9 @@ An interactive Google Looker Studio dashboard was developed to visualize marketi
 - Product category spending distribution.
 - Purchase channel performance.
 - Campaign response by income group and education level.
-- Household purchasing behavior.
-- Interactive filters for Education, Marital Status, Income Group, and Campaign Selection.
+- Average product spending per customer by income group.
+- Interactive demographic filters for Education, Marital Status, and Income Group.
+- Campaign Selection filter for campaign-related visualizations.
 
 **Interactive Dashboard:**
 
@@ -140,10 +153,10 @@ An interactive Google Looker Studio dashboard was developed to visualize marketi
 
 ## **Project Files**
 
-- `marketing_campaign_dataset.xlsx` – Dataset used for marketing campaign and customer behavior analysis.
+- `marketing_campaign_dataset.csv` – Original dataset used for marketing campaign and customer behavior analysis.
 -  `marketing_campaign_analysis.sql` – SQL queries used for data exploration, validation, and business analysis.
 - `marketing_campaign_dashboard.jpg` – Dashboard preview.
-- `README.md` – Project documentation, including objectives, analysis process, key findings, and business recommendations.
+- `README.md` – Project documentation.
 
 ## **Conclusion**
 
